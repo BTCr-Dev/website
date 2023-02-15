@@ -34,26 +34,26 @@ $('document').ready(function() {
     }
   }
 
-  $("#wbtcdaoInfo").click(function()  {
-    togglePartnerSelect("#wbtcdaoInfo", "#stackThree");
+  $("#btcrdaoInfo").click(function()  {
+    togglePartnerSelect("#btcrdaoInfo", "#stackThree");
   });
 
   $("#partner-join").click(function()  {
     $("#mc-embedded-subscribe-form").attr("action", "https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=9e8945b50a");
-    $("#exampleModalLabel").html("Join the WBTC network");
+    $("#exampleModalLabel").html("Join the BTCR network");
     $("#mc-embedded-subscribe").val("Join");
     $("#textarea-header").html("Comments");
   });
 
   $("#example-button").click(function()  {
     $("#mc-embedded-subscribe-form").attr("action", "https://bitgo.us19.list-manage.com/subscribe/post?u=7ff4a7177706c9d17f9e67de2&amp;id=44975c3c5b");
-    $("#exampleModalLabel").html("Get more info on WBTC");
+    $("#exampleModalLabel").html("Get more info on BTCR");
     $("#mc-embedded-subscribe").val("Keep me Informed");
     $("#textarea-header").html("Have a question?");
   });
 
   $("#stackThree").click(function()  {
-    togglePartnerSelect("#wbtcdaoInfo", "#stackThree");
+    togglePartnerSelect("#btcrdaoInfo", "#stackThree");
   });
 
   $("#merchantsInfo").click(function()  {

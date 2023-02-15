@@ -1,2 +1,2 @@
-# wbtc
-WBTC website
+# btcr
+BTCR website
